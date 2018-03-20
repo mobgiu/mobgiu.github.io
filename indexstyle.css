@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #ffffc1;
+}
+h1,h2 {
+	color: #ffffc1;
+	text-align: center;
+}
+h1 {
+	background-color: #b78b48;
+	font-size: 50px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+}
+h2 {
+	background: #bf5151; 
+	border-radius: 25px;
+	font-size: 150%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width: 70%;
+}
+#about {
+	color: #bf5151;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.mulher,p#linn {
+	font-size: small;
+}
+#linn {
+	margin-left: 500px;
+}
+.selfie {
+	border-radius: 30%;
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #b78b48;
+}
+h3 {
+	margin-top: 30px;
+	font-weight: 700;
+}
+.lorem {
+	font-style: normal;
+}
+footer {
+	color: #ffffc1;
+	margin-top: 50px;
+	margin-bottom: 0;
+	background: #bf5151;
+	width: 100%;
+	padding-top: 10px;
+	text-align: center;
+}
+html, body {
+	height: 100%;
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -65px;
+}
+.footer,.push {
+    height: 25px;
+}
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+.link {
+	color: #ffffc1;
+}
+#fotografia {
+	color: #ffffc1;
+	background: #bf5151;
+	width: 100%;
+}
+.formacao {
+	margin-top: 20px;
+	font-size: 100%;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.topic {
+	font-weight: 700;
+}
