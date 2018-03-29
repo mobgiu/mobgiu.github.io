@@ -1,3 +1,12 @@
+/*Design responsivo
+ O asterísto indica todos os seletores
+*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,64 +55,80 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-a:link, a:visited, a:hover, a:active {
+a:link, a:visited, a:hover, a:active, a:focus {
 	text-decoration: none;
 	color: #ffffc1;
+}
+header, nav, article, footer, section {
+	display: block;
 }
 body {
 	font-family: 'Quicksand', sans-serif;
 	background-color: #ffffc1;
 	color: #bf5151;
 }
-.wrapper {
-    min-height: 100%;
-    margin-bottom: 65px;
-}
 h1,h2 {
 	color: #ffffc1;
 	text-align: center;
 }
 h1 {
-	background-color: #b78b48;
-	font-size: 50px;
+	background-color: #a7874b;
+	font-size: 60px;
 	width: 100%;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	margin-bottom: 25px;
 }
 h2 {
 	background: #bf5151; 
 	border-radius: 25px;
 	font-size: 150%;
 	padding: 10px;
-	margin-bottom: 30px;
-}
-main {
-	margin-left: 10%;
-	margin-right: 10%;
-}
-#selfie {
-	float: left;
-	border-radius: 30%;
-	width: 25%;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background: #b78b48;
+	margin-bottom: 20px;
+	margin-top: 30px;
 }
 h3 {
 	font-weight: 700; 
+	color: #bf5151;
 }
-section {
-	margin-top: 30px;
+p {
+	color: #a7874b;
+}
+main {
+	width: 100%
+}
+.corpo {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+	color: #bf5151;
+}
+#sobre.strong {
+	text-indent: 20cm;
+}
+#selfie {
+	float: left;
+	border-radius: 50%;
+	width: 25%;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 footer {
 	color: #ffffc1;
+	border: 0;
+	font-size: 12pt;
 	background: #bf5151;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	margin-top: 50px;
-	margin-bottom: 0;
-	padding-top: 10px;
+	margin-bottom: -25px;
 	width: 100%;
-	height: 25px;
 	text-align: center;
+	position: static;
+	bottom: 0;
 }
